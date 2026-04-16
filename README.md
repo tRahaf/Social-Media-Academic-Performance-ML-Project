@@ -60,7 +60,7 @@ The Decision Tree model achieved the best performance among the tested models.
 
 --------------------------------------------------
 
-### Analysis:
+## Analysis:
 The results show that the dataset presents a challenging prediction problem due to the complexity of student behavior and multiple influencing factors.
 
 Although the accuracy is moderate, the models were able to capture meaningful patterns in the data. The Decision Tree model performed better as it can handle categorical data and non-linear relationships effectively.
@@ -69,6 +69,6 @@ These results highlight the importance of feature engineering and the potential 
 
 --------------------------------------------------
 
-# Conclusion:
+### Conclusion:
 The results suggest a slight negative relationship between high social media usage and academic performance.  
 However, predicting academic outcomes based only on social media usage remains challenging.
