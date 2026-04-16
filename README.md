@@ -2,12 +2,12 @@
 
 --------------------------------------------------
 
-# Overview:
+## Overview:
 This project analyzes how social media usage affects students' academic performance using machine learning techniques. The goal is to understand the relationship between usage behavior and academic outcomes.
 
 --------------------------------------------------
 
-# Dataset:
+## Dataset:
 The dataset contains 300 student records and includes:
 - Age
 - Grade Level
@@ -20,7 +20,7 @@ https://www.kaggle.com/datasets/muqniturrehman/social-media-and-academic-perform
 
 --------------------------------------------------
 
-# Data Preprocessing:
+## Data Preprocessing:
 The dataset required several preprocessing steps:
 - Removed extra spaces from column names
 - Converted GPA ranges (e.g., 3.5-4.0) into numeric values
@@ -29,8 +29,8 @@ The dataset required several preprocessing steps:
 
 --------------------------------------------------
 
-# Feature Selection:
-## Selected features:
+## Feature Selection:
+### Selected features:
 - Age
 - Grade Level
 - Hours on Social Media
@@ -38,12 +38,12 @@ The dataset required several preprocessing steps:
 - Affects Performance
 - Academic Use Frequency
 
-## Target Variable:
+### Target Variable:
 - Overall Effect
 
 --------------------------------------------------
 
-# Machine Learning Models:
+## Machine Learning Models:
 The following models were used:
 - Logistic Regression
 - K-Nearest Neighbors (KNN)
@@ -51,7 +51,7 @@ The following models were used:
 
 --------------------------------------------------
 
-# Results:
+## Results:
 - Logistic Regression Accuracy: 23%
 - KNN Accuracy: 23%
 - Decision Tree Accuracy: 30%
@@ -60,7 +60,7 @@ The Decision Tree model achieved the best performance among the tested models.
 
 --------------------------------------------------
 
-# Analysis:
+### Analysis:
 The results show that the dataset presents a challenging prediction problem due to the complexity of student behavior and multiple influencing factors.
 
 Although the accuracy is moderate, the models were able to capture meaningful patterns in the data. The Decision Tree model performed better as it can handle categorical data and non-linear relationships effectively.
